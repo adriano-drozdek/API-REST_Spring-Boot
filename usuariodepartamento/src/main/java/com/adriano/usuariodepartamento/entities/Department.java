@@ -1,5 +1,10 @@
 package com.adriano.usuariodepartamento.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_department")
 public class Department {
 
 	private Long id;
